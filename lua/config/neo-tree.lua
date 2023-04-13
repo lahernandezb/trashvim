@@ -15,6 +15,7 @@ import("neo-tree", function(neoTree)
 		},
 		filesystem = {
 			filtered_items = {
+				hide_dofiles = false,
 				never_show = {
 					".git",
 					".DS_Store",

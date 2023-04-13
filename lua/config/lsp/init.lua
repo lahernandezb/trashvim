@@ -41,6 +41,7 @@ import({ "mason", "mason-lspconfig", "lspconfig", "cmp_nvim_lsp" }, function(mod
 			"angularls",
 			"rust_analyzer",
 		},
+		automatic_installation = { exclude = { "denols" } },
 	})
 
 	local opts = {

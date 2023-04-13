@@ -3,30 +3,14 @@ import({ "alpha", "alpha.themes.dashboard" }, function(modules)
 	local dashboard = modules["alpha.themes.dashboard"]
 
 	dashboard.section.header.val = {
-		[[                        .^!777777~      ]],
-		[[                 .^!77~^:......~Y~      ]],
-		[[              :!?7^..           .5!     ]],
-		[[           :7?!:.                .P^    ]],
-		[[         ~J!.                     :G    ]],
-		[[       ^Y!.                        J?   ]],
-		[[      ?Y.                          .G.  ]],
-		[[     JJ                             ?Y  ]],
-		[[    ?Y                              JG  ]],
-		[[   .G.                              Y!  ]],
-		[[   J?                              .G   ]],
-		[[   G^                            ::.P^  ]],
-		[[   G:                            ^^ ^P  ]],
-		[[   P^                                ?J ]],
-		[[   Y!                                :G ]],
-		[[   !Y  ..                          .. P^]],
-		[[   .G. .^                        .7J: P~]],
-		[[    Y7                        .~?J~  ?Y ]],
-		[[    .G.                   .^!??~.  ^Y7  ]],
-		[[     ?J              .:^!7?!:.  :!?!.   ]],
-		[[      P~       .^!777?7~:.  .^7?!.      ]],
-		[[      .P~ .^~!7?!:...  .:~77!^.         ]],
-		[[        ?JJ!^::..:^~!777~.              ]],
-		[[         .~77777!~^:.                   ]],
+		"                                                     ",
+		"  ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ",
+		"  ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ",
+		"  ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ",
+		"  ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║ ",
+		"  ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ",
+		"  ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
+		"                                                     ",
 	}
 
 	dashboard.section.buttons.val = {
@@ -40,7 +24,7 @@ import({ "alpha", "alpha.themes.dashboard" }, function(modules)
 	}
 
 	local function footer()
-		return "“Should've named my kids tech debt, they're never going away.” – Trash"
+		return "Build Something!!!"
 	end
 
 	dashboard.section.footer.val = footer()

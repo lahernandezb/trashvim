@@ -19,9 +19,9 @@ import("catppuccin", function(catppuccin)
 			types = {},
 		},
 		color_overrides = {
-			mocha = {
-				base = "#000000",
-			},
+			--[[ mocha = { ]]
+			--[[ 	base = "#000000", ]]
+			--[[ }, ]]
 		},
 		highlight_overrides = {
 			mocha = function(C)

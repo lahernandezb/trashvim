@@ -21,6 +21,14 @@ import({ "telescope", "telescope.actions" }, function(modules)
 				},
 			},
 		},
+		extensions = {
+			project = {
+				base_dirs = {
+					"~/Code",
+					"~/Developer",
+				},
+			},
+		},
 	})
 
 	telescope.load_extension("fzf")

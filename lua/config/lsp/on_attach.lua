@@ -23,7 +23,7 @@ M.on_attach = function(client, bufnr)
 	keymap(bufnr, "n", "gi", "<cmd>Trouble lsp_implementations<CR>", opts)
 	keymap(bufnr, "n", "gr", "<cmd>Trouble lsp_references<CR>", opts)
 	keymap(bufnr, "n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
-	keymap(bufnr, "n", "<C-k>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
+	--[[ keymap(bufnr, "n", "<C-k>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts) ]]
 	keymap(bufnr, "n", "<leader>rn", ":IncRename ", opts)
 	keymap(bufnr, "n", "<leader>ca", "<cmd>CodeActionMenu<CR>", opts)
 	keymap(bufnr, "n", "gf", "<cmd>lua vim.lsp.buf.format({ async = true })<CR>", opts)
