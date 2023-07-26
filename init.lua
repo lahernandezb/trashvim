@@ -30,7 +30,7 @@ if vim.g.vscode then
   keymap("n", "n", "nzzzv", { noremap = true, silent = true })
   keymap("n", "N", "Nzzzv", { noremap = true, silent = true })
 
-  vim.cmd [[source $HOME/.config/nvim/vscode/settings.vim]]
+  -- [[ vim.cmd [[source $HOME/.config/nvim/vscode/settings.vim]] ]]
 else
   require("config.plugins")
   require("import")
