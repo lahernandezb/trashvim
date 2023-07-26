@@ -7,6 +7,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- Window navigation
+keymap("n", "<leader>v", "<C-w>v", opts)
+keymap("n", "<leader>s", "<C-w>s", opts)
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)

@@ -4,7 +4,7 @@ import("nvim-cursorline", function(cursorLine)
 			enable = true,
 		},
 		cursorword = {
-			enable = true,
+			enable = false,
 		},
 	})
 end)
