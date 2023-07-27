@@ -71,6 +71,7 @@ return packer.startup(function(use)
 
   -- Colorscheme
   use({ "catppuccin/nvim", as = "catppuccin" })
+  use({ 'rose-pine/neovim', as = 'rose-pine' })
 
   -- Treesitter
   use("nvim-treesitter/nvim-treesitter")
