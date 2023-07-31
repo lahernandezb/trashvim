@@ -21,6 +21,11 @@ import({ "telescope", "telescope.actions" }, function(modules)
 				},
 			},
 		},
+    pickers = {
+      find_files = {
+        hidden = true
+      }
+    }
 	})
 
 	telescope.load_extension("fzf")
