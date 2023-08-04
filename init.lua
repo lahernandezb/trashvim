@@ -13,8 +13,8 @@ if vim.g.vscode then
   keymap('n', '<leader>', notify 'whichkey.show', { noremap = true, silent = true })
   keymap('n', 'gr', notify 'references-view.find', { noremap = true, silent = true })
   keymap('n', 'gR', notify 'references-view.findImplementations', { noremap = true, silent = true })
-  --[[ keymap('n', 'gO', notify 'outline.focus', { noremap = true, silent = true }) ]]
-  keymap('n', 'gO', notify 'workbench.action.gotoSymbol', { noremap = true, silent = true })
+  keymap('n', 'gO', notify 'outline.focus', { noremap = true, silent = true })
+  --[[ keymap('n', 'gO', notify 'workbench.action.gotoSymbol', { noremap = true, silent = true }) ]]
   keymap('n', 'gl', notify 'editor.action.showHover', { noremap = true, silent = true })
   keymap('n', '-', notify 'workbench.files.action.showActiveFileInExplorer', { noremap = true, silent = true })
   keymap('n', '<C-j>', notify 'workbench.action.navigateDown', { noremap = true, silent = true })
@@ -30,7 +30,6 @@ if vim.g.vscode then
   keymap("n", "n", "nzzzv", { noremap = true, silent = true })
   keymap("n", "N", "Nzzzv", { noremap = true, silent = true })
 
-  -- [[ vim.cmd [[source $HOME/.config/nvim/vscode/settings.vim]] ]]
 else
   require("config.plugins")
   require("import")
