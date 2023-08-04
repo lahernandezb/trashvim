@@ -61,7 +61,6 @@ return packer.startup(function(use)
   use({ "akinsho/bufferline.nvim", tag = "v3.*" })
   use("famiu/bufdelete.nvim")
   use("lukas-reineke/indent-blankline.nvim")
-  use("kevinhwang91/nvim-hlslens")
   use("petertriho/nvim-scrollbar")
   use("yamatsum/nvim-cursorline")
   use("brenoprata10/nvim-highlight-colors")
@@ -77,7 +76,8 @@ return packer.startup(function(use)
   use("nvim-treesitter/nvim-treesitter")
   use("windwp/nvim-ts-autotag")
   use("nvim-treesitter/nvim-treesitter-textobjects")
-  use("p00f/nvim-ts-rainbow")
+  -- plugin is broken, current chat about new version stay tunned
+  --[[ use("p00f/nvim-ts-rainbow") ]]
   use("windwp/nvim-autopairs")
 
   -- Telescope
@@ -131,7 +131,6 @@ return packer.startup(function(use)
   use("numToStr/Comment.nvim")
   use("JoosepAlviste/nvim-ts-context-commentstring")
   use("abecodes/tabout.nvim")
-  use("phaazon/hop.nvim")
   use("kylechui/nvim-surround")
 
   -- UI
