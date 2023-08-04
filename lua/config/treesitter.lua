@@ -27,10 +27,10 @@ import("nvim-treesitter.configs", function(treesitter)
 		highlight = {
 			enable = true,
 		},
-		rainbow = {
-			enable = true,
-			extended_mode = true,
-		},
+		--[[ rainbow = { ]]
+		--[[ 	enable = true, ]]
+		--[[ 	extended_mode = true, ]]
+		--[[ }, ]]
 		autotag = {
 			enable = true,
 		},
