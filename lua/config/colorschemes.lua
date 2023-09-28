@@ -46,3 +46,10 @@ import("rose-pine", function(pine)
   })
   vim.cmd.colorscheme("rose-pine")
 end)
+
+function ColorMyPencils(colorscheme)
+  colorscheme = colorscheme or "rose-pine"
+  vim.cmd.colorscheme(colorscheme)
+  vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+end

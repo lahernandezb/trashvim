@@ -6,6 +6,7 @@ local options = {
 	conceallevel = 0,
 	fileencoding = "utf-8",
 	hlsearch = true,
+  incsearch = true,
 	ignorecase = true,
 	mouse = "a",
 	pumheight = 10,
